@@ -1,8 +1,11 @@
 # B. Alice and Hairdresser
 
 time limit per test: 1 second
+
 memory limit per test: 256 megabytes
+
 input: standard input
+
 output: standard output
 
 Alice's hair is growing by leaps and bounds. Maybe the cause of it is the excess of vitamins, or maybe it is some black magic...
@@ -12,6 +15,7 @@ To prevent this, Alice decided to go to the hairdresser. She wants for her hair 
 Alice hasn't decided yet when she would go to the hairdresser, so she asked you to calculate how much time the haircut would take depending on the time she would go to the hairdresser. In particular, you need to process queries of two types:
 
 0 — Alice asks how much time the haircut would take if she would go to the hairdresser now.
+
 1 𝑝 𝑑 — 𝑝-th hairline grows by 𝑑 centimeters.
 Note, that in the request 0 Alice is interested in hypothetical scenario of taking a haircut now, so no hairlines change their length.
 
@@ -27,6 +31,7 @@ The request description starts with an integer 𝑡𝑖. If 𝑡𝑖=0, then you
 ### Output
 For each query of type 0 print the time the haircut would take.
 
+## Solution
 ```
 #include <stdio.h>
 #include <iostream>

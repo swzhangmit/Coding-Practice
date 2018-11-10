@@ -1,9 +1,13 @@
 # A. Metro
 
 time limit per test: 1 second
+
 memory limit per test: 256 megabytes
+
 input: standard input
+
 output: standard output
+
 Alice has a birthday today, so she invited home her best friend Bob. Now Bob needs to find a way to commute to the Alice's home.
 
 In the city in which Alice and Bob live, the first metro line is being built. This metro line contains 𝑛 stations numbered from 1 to 𝑛. Bob lives near the station with number 1, while Alice lives near the station with number 𝑠. The metro line has two tracks. Trains on the first track go from the station 1 to the station 𝑛 and trains on the second track go in reverse direction. Just after the train arrives to the end of its track, it goes to the depot immediately, so it is impossible to travel on it after that.
@@ -25,6 +29,8 @@ The third line contains 𝑛 integers 𝑏1,𝑏2,…,𝑏𝑛 (𝑏𝑖=0 or �
 Print "YES" (quotes for clarity) if Bob will be able to commute to the Alice's home by metro and "NO" (quotes for clarity) otherwise.
 
 You can print each letter in any case (upper or lower).
+
+## Solution
 ```
 #include <stdio.h>
 #include <iostream>
