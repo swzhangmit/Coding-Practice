@@ -119,7 +119,9 @@ int main() {
   }
 
   for (int i = 0; i < startindices.size(); i++) {
-    for (int j = startindices[i] //finish later
+    for (int j = startindices[i]; j < ?; j++) {
+      //finish later
+    }
   }
 
   for (int i = 0; i < w1.size(); i++) {
